@@ -7,7 +7,9 @@
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="icon" href="https://lh3.googleusercontent.com/2xihjLspG2TDQ8-4bknp2CT9-DTswCS1iLXb2EgvyavyX8udQTIwHYvA5wTOYlie3Sc">
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap" rel="stylesheet">  
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/tablets.css" media="only screen and (min-width:600px)">
+	<link rel="stylesheet" href="./css/desktop.css" media="only screen and (min-width:800px)">  
 </head>
 <body>
 	<nav class="nav">
@@ -18,18 +20,48 @@
 				</a>
 			</span>
 		</div>
-		<div class="nav__logo">
-			<figure>
-				<a href="#">
-					<img src="https://codigofacilito.com/assets/logo-cbf2a784ebee5d642aa7b8182df3e388d4feba0a23577eed1d2747fa05861f73.png" alt="Logo codigo facilito" class="logo__image">
-				</a>
-			</figure>
+
+		<div class="menu">
+			<div class="nav__logo">
+				<figure>
+					<a href="#">
+						<img src="https://codigofacilito.com/assets/logo-cbf2a784ebee5d642aa7b8182df3e388d4feba0a23577eed1d2747fa05861f73.png" alt="Logo codigo facilito" class="logo__image">
+					</a>
+				</figure>
+			</div>
+
+			<nav class="navbar">
+				<ul class="navbar__header">
+					<li class="navbar__item"><a href="#" class="navbar__link">Cursos</a></li>
+					<li class="navbar__item"><a href="#" class="navbar__link">Premium</a></li>
+					<li class="navbar__item">
+						<a href="#" class="navbar__link">
+							<div class="buscar">
+								<form>
+									<input type="search" placeholder="buscar">
+								</form>
+							</div>
+						</a>
+					</li>
+					<li class="navbar__item">
+						<a href="#" class="navbar__link">
+							<input type="button" value="Crear cuenta" class="cuenta">
+						</a>
+					</li>
+					<li class="navbar__item">
+						<a href="#" class="navbar__link sesion">Iniciar sesión</a>
+					</li>
+				</ul>
+				
+			</nav>
 		</div>
+		
 	</nav>
 
 	<main class="main">
 			<div class="container">
 				<section class="section1">
+
 					<div class="image__cody">
 					<figure>
 						<img src="./img/cody1.svg" alt="Cody" class="cody__image">
@@ -38,7 +70,10 @@
 
 					<div class="main__header">
 						<header class="header">
-							<h1 class="header__title">La plataforma de aprendizaje para desarrolladores</h1>
+							
+							<div class="title">
+								<h1 class="header__title">La plataforma de aprendizaje para desarrolladores</h1>
+							</div>
 
 							<div class="crear__cuenta">
 								<a href="#" class="create__acount">Crear cuenta gratis</a>
@@ -48,12 +83,12 @@
 								<p class="alumnos__parrafo">Únete hoy a más de 400,000 estudiantes</p>
 							</div>
 						</header>
+					</div>
 
-						<div class="description">
-							<p class="description__parrafo">
-								Aprende desarrollo web con HTML5, CSS y JavaScript. Backend con Python. React, Go, Laravel. Desarrollo móvil con Android, Flutter y mucho más. <span>Desde tu casa</span>.
-							</p>
-						</div>
+					<div class="description">
+						<p class="description__parrafo">
+							Aprende desarrollo web con HTML5, CSS y JavaScript. Backend con Python. React, Go, Laravel. Desarrollo móvil con Android, Flutter y mucho más. <span>Desde tu casa</span>.
+						</p>
 					</div>
 				</section>
 
@@ -143,6 +178,57 @@
 
 			</div>
 	</main>
+
+	<footer class="footer">
+		<div class="content-footer">
+			<div class="arreglo"></div>
+
+			<div class="content-navbar-footer">
+					<div class="nav-footer plan-estudio-footer">
+						<p class="parrafo ">Planes de estudio</p>
+
+						<ul class="nabar-footer ">
+							<li class="navbar__footer-item"><a href="#" class="navbar__footer-link"> Desarollo Web Frontend</a></li>
+							<li class="navbar__footer-item"><a href="#" class="navbar__footer-link">Desarrollador JavaScript</a></li>
+							<li class="navbar__footer-item"><a href="#" class="navbar__footer-link">Desarrollo Web Backend</a></li>
+							<li class="navbar__footer-item"><a href="#" class="navbar__footer-link">Desarrollador PHP</a></li>
+							<li class="navbar__footer-item"><a href="#" class="navbar__footer-link"> Desarrollador Python</a></li>
+							<li class="navbar__footer-item"><a href="#" class="navbar__footer-link">Introducción a la Programación</a></li>
+						</ul>
+					</div>
+
+					<div class="nav-footer">
+						<p class="parrafo">Código Facilito</p>
+
+						<ul class="nabar-footer">
+							<li class="navbar__footer-item"><a href="#" class="navbar__footer-link">Cursos</a></li>
+							<li class="navbar__footer-item"><a href="#" class="navbar__footer-link">Términos y Condiciones</a></li>
+							<li class="navbar__footer-item"><a href="#" class="navbar__footer-link">Aviso de privacidad</a></li>
+							<li class="navbar__footer-item"><a href="#" class="navbar__footer-link">Contacto</a></li>
+						</ul>
+					</div>
+
+					<div class="create">
+
+					<div class="frase">
+						<figure>
+							<img src="./img/escritor.png" alt="Cody" class="frase__image">
+						</figure>
+						<p class="parrafo-frase">
+							“Los ordenadores son inútiles. Sólo pueden darte respuestas” - Pablo Picasso
+						</p>
+					</div>
+
+					<p class="parrafo">
+						Hecho con 💚en México para todo el mundo de habla hispana. 
+					</p>
+				</div>
+			</div>
+
+			
+
+		</div>
+	</footer>
 	
 </body>
 </html>

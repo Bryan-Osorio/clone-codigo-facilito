@@ -1,0 +1,115 @@
+.icon__image{
+	width: 4rem;
+}
+
+.logo__image{
+	width: 20rem; 
+	margin-left: 5rem;
+}
+
+.nav{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.image__cody{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.header .title{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.crear__cuenta{
+	width: 45%;
+	margin: 0 auto;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.create__acount{
+	font-size: 1.6rem;
+	
+}
+
+.content-section2{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.image-content{
+	width: 30%;
+}
+
+.image__section2{
+	width: 100%;
+}
+
+.cursos-section3{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.content-invited{
+	width: 60%;
+}
+
+.button-acount{
+	width: 55%;
+	margin: 0 auto;
+}
+
+.button-acount .acount{
+	padding: 1rem;
+}
+.frase{
+	width: 100%;
+	background-color: #292C3F;
+	padding: 2rem;
+	border-radius: 1rem;
+	margin-bottom: 2rem;
+	margin-top: 4rem;
+	position: relative;
+
+}
+
+.frase__image{
+	width: 5rem;
+	height: 5rem;
+	border-radius: 100%;
+	position: absolute;
+	top: -3rem;
+	left: 5rem;
+	display: block;
+	border: 1px solid #fff;
+}
+
+.parrafo-frase{
+	font-size: 1.4rem;
+	color: #fff;
+}
+
+.content-navbar-footer{
+	display:flex;
+	justify-content: space-between;
+}
+
+.plan-estudio-footer{
+	display: block;
+}
+
+.create{
+	width: 30%;
+	padding-top: 0;
+}
+
+.create .frase{
+	display: block;
+}
+
+
+

@@ -1,0 +1,153 @@
+.section1 .description__parrafo{
+	text-align: center;
+}
+
+.section1 .description{
+	width: 70%;
+	margin: 0 auto;
+	font-size: 1.8rem;
+}
+
+.section1{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: center;
+}
+
+.main__header{
+	width: 48%;
+	order: 1;
+	text-align: left;
+}
+
+.header__title{
+	font-size: 5rem;
+}
+
+.main__header  .alumnos .alumnos__parrafo{
+	margin-left: 5rem;
+}
+
+.create__acount{
+	text-align: center;
+}
+
+.crear__cuenta{
+	width: 60%;
+	margin-left: 5rem;
+}
+
+.cody__image{
+	width: 80%;
+	margin-top: -2rem;
+}
+
+
+.image__cody{
+	width: 48%;
+	order: 2;
+}
+
+.section1 .description{
+	order: 3;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 4rem;
+}
+
+.section2 .title-facilito{
+	font-size: 4rem;
+}
+
+.title-section3 .title{
+	font-size: 5rem;
+	font-weight: 400;
+}
+
+.frase__image{
+	left: 13rem;
+}
+
+.icon__image{
+	display: none;
+}
+
+.nav{
+	justify-content: flex-start;
+	padding: 4rem;
+}
+
+.logo__image{
+	margin-left: 0;
+	width: 100%;
+}
+
+.menu{
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.nav__logo{
+  width: 30%;
+  position: relative;
+  left: -6rem;
+  
+}
+.logo__image{
+	width: 100%;
+}
+
+.navbar__header{
+	display: flex;
+	align-items: center;
+}
+
+.navbar__item{
+	list-style: none;
+}
+
+.navbar__link{
+	text-decoration: none;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	color: #051626;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1.8rem;
+}
+
+.navbar__header .buscar{
+	width: 40%;
+	padding-left: 4rem;
+	display: block;
+	background-color: #F5F5F5;
+	padding: 1rem;
+	width: 100%;
+	border-radius: 1rem
+}
+
+input[type="search"]{
+	border: none;
+	background-color: transparent;
+	font-size: 1.6rem;
+	
+}
+
+.navbar__item .cuenta{
+	background-color: transparent;
+	padding: 1rem;
+	border: 1px solid #000;
+	font-size: 1.6rem;
+	border-radius: 4rem;
+}
+
+ .sesion{
+	color: #ccc;
+}
+
+.sesion:hover{
+	color: #000;
+}
