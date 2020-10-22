@@ -43,3 +43,238 @@ body{
 .icon__image{
 	width: 100%;
 }
+
+/*Estilos la MAIN*/
+
+.main{
+	width: 100%;
+}
+
+.section1{
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+	width: 85%;
+	margin: 0 auto;
+}
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.cody__image{
+	width: 100%;
+}
+
+.main__header{
+	text-align: center;
+	padding: 1rem;
+}
+
+.header__title{
+	font-size: 3.6rem;
+	font-family: 'IBM Plex Sans', sans-serif;
+	line-height: 1.5;
+}
+
+.crear__cuenta{
+	background-color: #5BCC85;
+	border-radius: 4rem;
+	margin-top: 4rem;
+	border: 1px solid transparent;
+	transition: all 300ms linear;
+	margin-bottom: 2rem;
+}
+
+.create__acount{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	display: block;
+	padding: 1.5rem;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: normal;
+	font-size: 1.8rem;
+	
+
+}
+
+.crear__cuenta:hover{
+	background-color: #fff;
+	border: 1px solid #5BCC85;
+}
+
+.create__acount:hover{
+	color: #5BCC85;
+}
+
+.alumnos__parrafo{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 400;
+	color: #486076;
+}
+
+.description{
+	margin-top: 3rem;
+	padding: 2rem;
+}
+
+.description__parrafo{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 400;
+	line-height: 2;
+	color: #486076;
+}
+
+.description__parrafo span{
+	color: #7A8C9B;
+	font-weight: bold;
+}
+
+.section2{
+	background-color: #f2f2f2;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+	width: 100%;
+}
+
+.title-facilito{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 700;
+	padding: 0;
+	font-size: 3rem;
+	text-align: center;
+}
+
+.content-section2{
+	padding: 5rem;
+	padding-top: 3rem;
+}
+
+.image__section2{
+	width: 100%;
+}
+
+.image{
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.title-section2 .title{
+	text-align: center;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 700;
+	padding-bottom: 2.5rem;
+}
+
+.description-section2 .parrafo{
+	text-align: center;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 400;
+	padding: 1.5rem;
+	font-size: 1.8rem;
+}
+
+.section3{
+	width: 100%;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+	background-color: #051626;
+}
+
+.content-plus{
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.title-section3{
+	margin-bottom: 4rem;
+}
+
+.title-section3 .title{
+	text-align: center;
+	font-size: 3.6rem;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 700;
+	color: #fff;
+
+}
+
+.cursos-section3{
+	border: 1px solid #fff;
+	border-radius: 4rem;
+	transition: all 400ms linear;
+}
+
+.cursos-section3 .cursos {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	padding: 1.5rem;
+}
+
+.cursos-section3:hover{
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.cursos-section3 .cursos:hover{
+	color: #000;
+}
+
+.section4{
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
+.content-invited{
+	width: 85%;
+	margin: 0 auto;
+	border: 1px solid #D1D1D1;
+	padding: 2rem;
+	border-radius: 1rem;
+}
+
+.description-invited{
+	padding: 2rem;
+}
+
+.description-invited .parrafo{
+	font-family:'IBM Plex Sans', sans-serif;
+	font-weight: 400;
+	text-align: center; 
+	font-size: 1.8rem;
+}
+
+.button-acount{
+	background-color:#5BCC85;
+	border-radius: 4rem;
+	border: 1px solid transparent;
+	transition: all 400ms linear;
+}
+
+.button-acount .acount{
+	display: block;
+	padding: 1.5rem;
+	text-decoration: none;
+	font-size: 1.8rem;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+
+}
+
+.button-acount:hover{
+	background-color: #fff;
+	border: 1px solid #5BCC85;
+}
+
+.button-acount .acount:hover{
+	color: #5BCC85;
+}
+
